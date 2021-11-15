@@ -1,0 +1,5 @@
+<form action="/answer">
+  <input type="text" name="question" value="<%= params[:question] %>">
+  <input type="submit" value="Ask!">
+</form>
+<%= link_to "Dumb answer link", answer_path(@answer) %>
